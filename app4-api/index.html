@@ -1,7 +1,16 @@
 <html ng-app="apiApp">
-	<body>
+	<body ng-controller = 'mainCtrl'>
 		
-				<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
+		<div ng-repeat = 'smurf in smurfs'>
+		{{smurf.name}}
+		<br>
+		<img ng-src="{{smurf.img}}" alt=''>
+		<br>
+		<br>
+		</div>
+		
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.js"></script>
 		<script src="app.js"></script>
 		<script src="controller.js"></script>
 		<script src="service.js"></script>
