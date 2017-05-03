@@ -1,0 +1,22 @@
+.main {
+    width: 100%;
+    height: 20vh;
+    position: relative;
+}
+
+.winner{
+    background-color: red;
+    color: white;
+    
+}
+
+.poke {
+    width: 100%;
+    height: 80vh;
+    background-color: lightgrey;
+}
+
+#players{
+    background-color: blue;
+    color: white;
+}
